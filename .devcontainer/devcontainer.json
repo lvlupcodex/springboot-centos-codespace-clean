@@ -1,0 +1,19 @@
+{
+  "name": "CentOS 7 + Java Spring",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "remoteUser": "root",
+  "mounts": [],
+  "features": {},
+  "postCreateCommand": "echo '🐺 Codespace listo para Lauv.'",
+  "customizations": {
+    "vscode": {
+      "extensions": ["vscjava.vscode-java-pack", "pivotal.vscode-spring-boot"]
+    }
+  }
+}
