@@ -8,7 +8,7 @@
     "terminal.integrated.shell.linux": "/bin/bash"
   },
   "remoteUser": "root",
-  "postCreateCommand": "echo '🐺 Codespace limpio y listo para Lauv.'",
+  "postCreateCommand": "echo '🐺 Codespace limpio y listo.'",
   "customizations": {
     "vscode": {
       "extensions": [
